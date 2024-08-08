@@ -1,11 +1,15 @@
-source ~/instant-zsh.zsh
-instant-zsh-pre "%n@%m %~%# "
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/home/loadnewyear/.local/scripts:$PATH
 export PATH=$HOME/.local/scripts:$PATH
 
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 
 # User configuration
 
@@ -36,7 +40,7 @@ eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cd="z"
-alias ls="exa --icons -a"
+alias ls="exa --icons"
 alias vc="wine '~/Downloads/gta/Grand Theft Auto - Vice City/ Grand Theft Auto Vice City/gta-vc.exe'"
 
 eval "$(zoxide init zsh)"
@@ -55,3 +59,30 @@ export NVM_DIR="$HOME/.nvm"
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+
+
+#!/bin/sh
+if [ "$TERM" = "linux" ]; then
+	/bin/echo -e "
+	\e]P0#191724
+	\e]P1#eb6f92
+	\e]P2#9ccfd8
+	\e]P3#f6c177
+	\e]P4#31748f
+	\e]P5#c4a7e7
+	\e]P6#ebbcba
+	\e]P7#e0def4
+	\e]P8#26233a
+	\e]P9#eb6f92
+	\e]PA#9ccfd8
+	\e]PB#f6c177
+	\e]PC#31748f
+	\e]PD#c4a7e7
+	\e]PE#ebbcba
+	\e]PF#e0def4
+	"
+	# get rid of artifacts
+	clear
+fi
+source ~/powerlevel10k/powerlevel10k.zsh-theme
