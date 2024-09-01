@@ -38,7 +38,6 @@ export PATH=$HOME/.local/scripts:$PATH
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cd="z"
 alias ls="exa --icons"
-alias vc="wine '~/Downloads/gta/Grand Theft Auto - Vice City/ Grand Theft Auto Vice City/gta-vc.exe'"
 alias vim="command nvim"
 alias nvim="echo 'NO! Use vim instead, it is aliased to nvim'"
 

@@ -10,5 +10,6 @@ require("remap.telescope")
 
 require("config.colors")
 
-vim.cmd.lua(ColorMyPencils("rose-pine"))
+vim.cmd.colorscheme("catppuccin")
+
 require("config.harpoon")
