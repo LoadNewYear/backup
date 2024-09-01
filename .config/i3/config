@@ -268,3 +268,4 @@ client.background        $base
 
 # autostart
 exec_always --no-startup-id dunst
+exec_always --no-startup-id autotiling
