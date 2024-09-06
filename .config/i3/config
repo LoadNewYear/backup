@@ -215,7 +215,6 @@ exec --no-startup-id nm-applet
 
 bindsym $mod+shift+semicolon exec /bin/Obsidian-1.6.7.AppImage
 bindsym $mod+semicolon exec zen-browser
-bindsym $mod+s exec xrdb ~/.Xresources
 
 # FKeys
 # Pulse Audio controls
@@ -270,3 +269,4 @@ client.background        $base
 # autostart
 exec_always --no-startup-id dunst
 exec_always --no-startup-id autotiling
+exec xrdb ~/.Xresources
