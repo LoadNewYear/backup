@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello</title>
+		<script src="https://unpkg.com/htmx.org@1.6.0"></script>
+		<link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="style.css">
+		<style>
+@keyframes addTask {
+	from {
+		font-size: 0;
+	}
+	to {
+		font-size: 16px;
+	}
+}
+
+.animate {
+	animation-name: addTask;
+	animation-duration: 1s;
+}
+		</style>
+	</head>
+	<body>
+
+		<div  class="card  text-primary-content w-96">
+			<div class="card-body">
+				<h2 class="card-title">TODO:</h2>
+				<p class="animate" hx-get="/todos" hx-trigger="load" id="todoDiv">Loading</p>
+			</div>
+		</div>
+
+
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div style="position: absolute;">
+			<div class="divider divider-info">Enter task below</div>
+
+			<form hx-post="/todos" hx-trigger="submit" hx-target="#todoDiv">
+				<input name="taskInput" type="text" class="input input-bordered input-accent w-full max-w-xs" />
+				<button type="submit" class="btn btn-outline btn-success">Add</button>
+			</form>
+
+			<br>
+			<br>
+
+			<form hx-post="removeTask" hx-target="#todoDiv">
+				<input name="removeTaskInput" type="text" class="input input-bordered input-secondary w-full max-w-xs" />
+				<button type="submit" class="btn btn-outline btn-error">Remove</button>
+			</form>
+		</div>
+	</body>
+</html>

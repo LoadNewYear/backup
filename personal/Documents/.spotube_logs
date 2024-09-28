@@ -1,0 +1,1060 @@
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-07-21 08:15:38.455648
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      Pages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:232)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-07-21 17:49:50.726018
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      CursorPages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:268)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-07-22 07:34:25.947907
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      Pages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:232)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-07-22 07:44:16.965785
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+Null check operator used on a null value
+
+------- STACK TRACE -------
+#0      State.setState (package:flutter/src/widgets/framework.dart:1223)
+#1      _RawDecoratedTitlebarButtonState.initState.<anonymous closure> (package:titlebar_buttons/src/decorated_button.dart:156)
+#2      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:838)
+#3      Future._propagateToListeners (dart:async/future_impl.dart:867)
+#4      Future._completeWithValue (dart:async/future_impl.dart:643)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-07-22 19:07:57.226867
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      Pages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:232)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-07-23 14:20:41.902888
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      Pages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:232)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-07-23 17:35:18.158329
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      CursorPages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:268)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-07-24 07:25:16.988735
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      Pages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:232)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-07-30 07:16:57.346593
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      CursorPages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:268)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-08-07 13:24:33.978232
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      CursorPages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:268)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-08-07 13:25:03.952536
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+Null check operator used on a null value
+
+------- STACK TRACE -------
+#0      StatefulElement.state (package:flutter/src/widgets/framework.dart:5599)
+#1      Navigator.of (package:flutter/src/widgets/navigator.dart:2683)
+#2      showDialog (package:flutter/src/material/dialog.dart:1417)
+#3      TrackOptions.actionAddToPlaylist (package:spotube/components/shared/track_tile/track_options.dart:84)
+#4      TrackOptions.build.<anonymous closure> (package:spotube/components/shared/track_tile/track_options.dart:253)
+#5      _AdaptivePopSheetListItem.build.<anonymous closure> (package:spotube/components/shared/adaptive/adaptive_pop_sheet_list.dart:224)
+#6      _InkResponseState.handleTap (package:flutter/src/material/ink_well.dart:1183)
+#7      GestureRecognizer.invokeCallback (package:flutter/src/gestures/recognizer.dart:315)
+#8      TapGestureRecognizer.handleTapUp (package:flutter/src/gestures/tap.dart:652)
+#9      BaseTapGestureRecognizer._checkUp (package:flutter/src/gestures/tap.dart:309)
+#10     BaseTapGestureRecognizer.handlePrimaryPointer (package:flutter/src/gestures/tap.dart:242)
+#11     PrimaryPointerGestureRecognizer.handleEvent (package:flutter/src/gestures/recognizer.dart:670)
+#12     PointerRouter._dispatch (package:flutter/src/gestures/pointer_router.dart:98)
+#13     PointerRouter._dispatchEventToRoutes.<anonymous closure> (package:flutter/src/gestures/pointer_router.dart:143)
+#14     _LinkedHashMapMixin.forEach (dart:collection-patch/compact_hash.dart:633)
+#15     PointerRouter._dispatchEventToRoutes (package:flutter/src/gestures/pointer_router.dart:141)
+#16     PointerRouter.route (package:flutter/src/gestures/pointer_router.dart:127)
+#17     GestureBinding.handleEvent (package:flutter/src/gestures/binding.dart:495)
+#18     GestureBinding.dispatchEvent (package:flutter/src/gestures/binding.dart:475)
+#19     RendererBinding.dispatchEvent (package:flutter/src/rendering/binding.dart:430)
+#20     GestureBinding._handlePointerEventImmediately (package:flutter/src/gestures/binding.dart:420)
+#21     GestureBinding.handlePointerEvent (package:flutter/src/gestures/binding.dart:383)
+#22     GestureBinding._flushPointerEventQueue (package:flutter/src/gestures/binding.dart:330)
+#23     GestureBinding._handlePointerDataPacket (package:flutter/src/gestures/binding.dart:299)
+#24     _invoke1 (dart:ui/hooks.dart:328)
+#25     PlatformDispatcher._dispatchPointerDataPacket (dart:ui/platform_dispatcher.dart:429)
+#26     _dispatchPointerDataPacket (dart:ui/hooks.dart:262)
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-08-07 18:56:50.014153
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      CursorPages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:268)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-08-07 18:56:51.796909
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+Exception: Failed to get access token: {code: 503, message: Service Unavailable}
+
+------- STACK TRACE -------
+#0      AuthenticationCredentials.fromCookie (package:spotube/provider/authentication_provider.dart:63)
+<asynchronous suspension>
+#1      AuthenticationNotifier.refreshCredentials (package:spotube/provider/authentication_provider.dart:170)
+<asynchronous suspension>
+#2      AuthenticationNotifier.onInit (package:spotube/provider/authentication_provider.dart:139)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-08-07 18:57:01.755033
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+PathNotFoundException: Cannot retrieve length of file, path = 'imageUrl' (OS Error: No such file or directory, errno = 2)
+
+------- STACK TRACE -------
+#0      _checkForErrorResponse (dart:io/common.dart:55)
+#1      _File.length.<anonymous closure> (dart:io/file_impl.dart:389)
+<asynchronous suspension>
+#2      FileImage._loadAsync (package:flutter/src/painting/image_provider.dart:1484)
+<asynchronous suspension>
+#3      MultiFrameImageStreamCompleter._handleCodecReady (package:flutter/src/painting/image_stream.dart:985)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-02 19:29:43.280357
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      Pages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:232)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-02 19:46:02.754037
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+Null check operator used on a null value
+
+------- STACK TRACE -------
+#0      State.setState (package:flutter/src/widgets/framework.dart:1223)
+#1      _RawDecoratedTitlebarButtonState.initState.<anonymous closure> (package:titlebar_buttons/src/decorated_button.dart:156)
+#2      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:838)
+#3      Future._propagateToListeners (dart:async/future_impl.dart:867)
+#4      Future._completeWithValue (dart:async/future_impl.dart:643)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-02 19:59:36.587120
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+Null check operator used on a null value
+
+------- STACK TRACE -------
+#0      _SearchViewRoute.didPop (package:flutter/src/material/search_anchor.dart:553)
+#1      _RouteEntry.handlePop (package:flutter/src/widgets/navigator.dart:3076)
+#2      NavigatorState._flushHistoryUpdates (package:flutter/src/widgets/navigator.dart:4270)
+#3      NavigatorState.pop (package:flutter/src/widgets/navigator.dart:5294)
+#4      NavigatorState.maybePop (package:flutter/src/widgets/navigator.dart:5243)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-02 20:06:11.561605
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+Null check operator used on a null value
+
+------- STACK TRACE -------
+#0      State.setState (package:flutter/src/widgets/framework.dart:1223)
+#1      _RawDecoratedTitlebarButtonState.initState.<anonymous closure> (package:titlebar_buttons/src/decorated_button.dart:156)
+#2      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:838)
+#3      Future._propagateToListeners (dart:async/future_impl.dart:867)
+#4      Future._completeWithValue (dart:async/future_impl.dart:643)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-03 20:28:16.573162
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      CursorPages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:268)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-07 11:56:10.122173
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      CursorPages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:268)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-08 16:42:08.417052
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      Pages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:232)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-21 17:29:35.675386
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      Pages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:232)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-21 19:17:16.513495
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      Pages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:232)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-22 10:06:48.104054
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+OAuth authorization error (invalid_token): The access token expired.
+
+------- STACK TRACE -------
+#0      Client.send (package:oauth2/src/client.dart:134)
+<asynchronous suspension>
+#1      BaseClient._sendUnstreamed (package:http/src/base_client.dart:93)
+<asynchronous suspension>
+#2      SpotifyApiBase._getImpl.<anonymous closure> (package:spotify/src/spotify_base.dart:211)
+<asynchronous suspension>
+#3      SpotifyApiBase._requestWrapper (package:spotify/src/spotify_base.dart:247)
+<asynchronous suspension>
+#4      SpotifyApiBase._getImpl (package:spotify/src/spotify_base.dart:210)
+<asynchronous suspension>
+#5      CursorPages.getPage (package:spotify/src/endpoints/endpoint_paging.dart:268)
+<asynchronous suspension>
+#6      SinglePages.stream.handlePageAndGetNext (package:spotify/src/endpoints/endpoint_paging.dart:168)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================
+============================== CATCHER 2 LOG ==============================
+Crash occurred on 2024-09-22 10:06:56.410468
+
+------- DEVICE INFO -------
+name: Arch Linux
+version: null
+id: arch
+idLike: null
+versionCodename: null
+versionId: null
+prettyName: Arch Linux
+buildId: rolling
+variant: null
+variantId: null
+machineId: 3b1d9a739c3844329f19fb7c86dbafe9
+
+------- APP INFO -------
+environment: release
+version: 3.7.1
+appName: spotube
+buildNumber: 32
+packageName: spotube
+
+---------- ERROR ----------
+[TrackNotFoundError] All in Good Time - Velvet Groove
+
+------- STACK TRACE -------
+#0      JioSaavnSourcedTrack.fetchFromTrack (package:spotube/services/sourced_track/sources/jiosaavn.dart:50)
+<asynchronous suspension>
+#1      SourcedTrack.fetchFromTrack (package:spotube/services/sourced_track/sourced_track.dart:138)
+<asynchronous suspension>
+#2      sourcedTrackProvider.<anonymous closure> (package:spotube/provider/server/sourced_track.dart:25)
+<asynchronous suspension>
+#3      FutureHandlerProviderElementMixin.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/async_notifier/base.dart:348)
+<asynchronous suspension>
+
+------- CUSTOM INFO -------
+======================================================================

@@ -1,0 +1,48 @@
+! Use a truetype font and size.
+xterm*faceName: JetBrainsMono Nerd Font
+xterm*faceSize: 16
+
+set-option -ga terminal-overrides ",xterm-256color:Tc"
+
+*background: #000000
+*foreground: #d0d0d0
+*cursorColor: #d0d0d0
+
+! black
+*color0: #000000
+*color8: #000000
+
+! red
+*color1: #e22c3c
+*color9: #e3365e
+
+! green
+*color2: #97e768
+*color10: #52eea3
+
+! yellow
+*color3: #ffd85e
+*color11: #fa9f50
+
+! blue
+*color4: #437cf3
+*color12: #54b6f8
+
+! magenta
+*color5: #e54f9b
+*color13: #9446f8
+
+! cyan
+*color6: #51e1e9
+*color14: #43cfea
+
+! white
+*color7: #d0d0d0
+*color15: #515768
+
+XTerm*VT100.Translations: #override \
+      Shift Ctrl<Key>V: insert-selection(CLIPBOARD) \n\ 
+      Shift Ctrl<Key>V: insert-selection(PRIMARY) \n\ 
+      Shift<Btn1Down>: select-start() \n\ 
+      Shift<Btn1Motion>: select-extend() \n\ 
+      Shift<Btn1Up>: select-end(CLIPBOARD) \n\

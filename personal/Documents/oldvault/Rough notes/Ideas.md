@@ -1,0 +1,2 @@
+
+- A game where enemies use different AIs based on the player's behaviour. For example, if the player is playing stealthily, the enemies will use an AI that is more suited for stealth games. But if the player is going all in and shooting all the enemies, the enemies will use an AI that is more suitable for shooter games.

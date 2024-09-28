@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ballHitPaddle.wav-d7515d97ca215b0a8fd5b2bdfa165bb7.sample"
+
+[deps]
+
+source_file="res://Sounds/ballHitPaddle.wav"
+dest_files=[ "res://.import/ballHitPaddle.wav-d7515d97ca215b0a8fd5b2bdfa165bb7.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
