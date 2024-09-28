@@ -13,8 +13,8 @@ return {
     },
     "saadparwaiz1/cmp_luasnip", -- for autocompletion
     "rafamadriz/friendly-snippets", -- useful snippets
-    "onsails/lspkind.nvim", -- vs-code like pictograms
-  },
+    "onsails/lspkind.nvim", -- vs-code like picto@@@
+     },
   config = function()
     local cmp = require("cmp")
 
@@ -32,7 +32,8 @@ return {
       snippet = { -- configure how nvim-cmp interacts with snippet engine
         expand = function(args)
           luasnip.lsp_expand(args.body)
-        end,
+
+	  end,
       },
       mapping = cmp.mapping.preset.insert({
         ["<C-k>"] = cmp.mapping.select_prev_item(), -- previous suggestion
@@ -48,7 +49,8 @@ return {
         { name = "nvim_lsp"},
         { name = "luasnip" }, -- snippets
         { name = "buffer" }, -- text within current buffer
-        { name = "path" }, -- file system paths
+
+	{ name = "path" }, -- file system paths
       }),
 
       -- configure lspkind for vs-code like pictograms in completion menu
@@ -61,3 +63,4 @@ return {
     })
   end,
 }
+
