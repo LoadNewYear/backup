@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/bash
 exec stow i3
 exec stow nvim
 exec stow personal
