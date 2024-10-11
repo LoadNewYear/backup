@@ -9,7 +9,7 @@ font pango:"FiraCode Nerd Font" 16px
 # Thanks Childz
 for_window [class="^.*"] border pixel 0
 
-                          # class                 border  backgr. text    indicator child_border
+# class                 border  backgr. text    indicator child_border
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -27,7 +27,9 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec xterm -ls -xrm 'XTerm*selectToClipboard: true'& -ti 340
+#bindsym $mod+Return exec xterm -ls -xrm 'XTerm*selectToClipboard: true'& -ti 340
+#bindsym $mod+Return exec footclient
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -171,12 +173,12 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
-        bindsym $mod+c resize shrink width 10 px or 10 ppt
-        bindsym $mod+r resize grow height 10 px or 10 ppt
-        bindsym $mod+e resize shrink height 10 px or 10 ppt
-        bindsym $mod+v resize grow width 10 px or 10 ppt
+bindsym $mod+c resize shrink width 10 px or 10 ppt
+bindsym $mod+r resize grow height 10 px or 10 ppt
+bindsym $mod+e resize shrink height 10 px or 10 ppt
+bindsym $mod+v resize grow width 10 px or 10 ppt
 
-        # same bindings, but for the arrow keys
+# same bindings, but for the arrow keys
 
 
 # ------------------------------------------
@@ -189,8 +191,8 @@ bindsym $mod+semicolon exec firefox
 
 # FKeys
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +1% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -1% #decrease sound volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 #
 # # Sreen brightness controls
@@ -255,20 +257,20 @@ set $default-text-color #d0d0d0
 # 
 # bar
 bar {
-	status_command i3status
-	padding 8px 8px 2px 0px
-  colors {
-    background         $black
-    statusline         $yellow
-    focused_statusline $amber
-    focused_separator  $orange
+    status_command i3status
+#padding 8px 8px 2px 0px
+        colors {
+            background         $black
+                statusline         $yellow
+                focused_statusline $amber
+                focused_separator  $orange
 
-    ## target           border  bg        text
-    focused_workspace  $cyan   $black    $cyan
-    active_workspace   $cyan   $black     $cyan
-    inactive_workspace $magenta $black  $magenta
-    urgent_workspace   $red  $red   $black
-  }
+## target           border  bg        text
+                focused_workspace  $cyan   $black    $cyan
+                active_workspace   $cyan   $black     $cyan
+                inactive_workspace $magenta $black  $magenta
+                urgent_workspace   $red  $red   $black
+        }
 }
 
 # Scratchpad
@@ -279,4 +281,13 @@ bindsym $mod+minus scratchpad show
 exec_always --no-startup-id dunst
 exec_always --no-startup-id autotiling
 exec xrdb ~/.Xresources
-exec xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
+#exec xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
+exec foot --server
+
+#input "SynPS/2 Synaptics TouchPad" {
+    #tap enabled
+    #natural_scroll disabled
+    #dwt enabled
+    #accel_profile "flat" # disable mouse acceleration (enabled by default; to set it manually, use "adaptive" instead of "flat")
+    #pointer_accel 0.5 # set mouse sensitivity (between -1 and 1)
+#}

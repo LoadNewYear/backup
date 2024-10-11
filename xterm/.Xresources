@@ -4,7 +4,7 @@ xterm*faceSize: 16
 
 set-option -ga terminal-overrides ",xterm-256color:Tc"
 
-*background: #000000
+*background: #1e1e2e
 *foreground: #d0d0d0
 *cursorColor: #d0d0d0
 

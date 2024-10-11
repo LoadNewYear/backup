@@ -1,7 +1,8 @@
 require("config.lazy")
-require("remap")
+require("config.harpoon")
 require("config.set")
-
+require("remap")
+vim.cmd.colorscheme("rose-pine")
 -- Treeshitter
 require("lazy").setup({{
     "nvim-treesitter/nvim-treesitter",

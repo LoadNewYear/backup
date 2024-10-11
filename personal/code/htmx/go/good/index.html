@@ -1,0 +1,16 @@
+{{ block "index" . }}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://unpkg.com/htmx.org@latest"></script>
+    </head>
+    <body>
+        <h1>GO & HTMX</h1>
+        <h2>{{ .Message }}</h2>
+        <button hx-post="/time" hx-target="#timeh2">Get Time</button>
+        <h2 id="timeh2"></h2>
+    </body>
+</html>
+{{ end }}
