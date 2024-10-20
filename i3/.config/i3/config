@@ -256,33 +256,30 @@ set $default-text-color #d0d0d0
 # client.background        $black
 # 
 # bar
-bar {
-    status_command i3status
-#padding 8px 8px 2px 0px
-        colors {
-            background         $black
-                statusline         $yellow
-                focused_statusline $amber
-                focused_separator  $orange
-
-## target           border  bg        text
-                focused_workspace  $cyan   $black    $cyan
-                active_workspace   $cyan   $black     $cyan
-                inactive_workspace $magenta $black  $magenta
-                urgent_workspace   $red  $red   $black
-        }
-}
+#bar {
+##padding 8px 8px 2px 0px
+        #colors {
+            #background         $black
+                #statusline         $yellow
+                #focused_statusline $amber
+                #focused_separator  $orange
+#
+### target           border  bg        text
+                #focused_workspace  $cyan   $black    $cyan
+                #active_workspace   $cyan   $black     $cyan
+                #inactive_workspace $magenta $black  $magenta
+                #urgent_workspace   $red  $red   $black
+        #}
+#}
 
 # Scratchpad
-bindsym $mod+Shift+minus move scratchpad
-bindsym $mod+minus scratchpad show
 
 # autostart
-exec_always --no-startup-id dunst
-exec_always --no-startup-id autotiling
-exec xrdb ~/.Xresources
+#exec_always --no-startup-id autotiling
+#exec xrdb ~/.Xresources
 #exec xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
-exec foot --server
+#exec foot --server
+exec_always --no-startup-id xfce4-panel --disable-wm-check
 
 #input "SynPS/2 Synaptics TouchPad" {
     #tap enabled
@@ -291,3 +288,8 @@ exec foot --server
     #accel_profile "flat" # disable mouse acceleration (enabled by default; to set it manually, use "adaptive" instead of "flat")
     #pointer_accel 0.5 # set mouse sensitivity (between -1 and 1)
 #}
+
+
+
+# Floating shit
+for_window [class="mpv"] floating enable

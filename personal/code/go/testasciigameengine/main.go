@@ -34,38 +34,6 @@ func move(x, y int, obj *Object, grid [][]rune) {
 }
 
 
-func backUpdate(code_to_run string) error {
-    // Create a temporary file to store the code
-    tempFile, err := os.CreateTemp("", "temp_code.go")
-    if err != nil {
-        return fmt.Errorf("error creating temporary file: %w", err)
-    }
-    defer tempFile.Close()
-
-    // Write the code to the temporary file
-    actual_code_to_run := "render(grid)" + code_to_run
-    _, err = tempFile.WriteString(actual_code_to_run)
-    if err != nil {
-        return fmt.Errorf("error writing code to temporary file: %w", err)
-    }
-
-    // Compile the code
-    cmd := exec.Command("go", "build", "-o", "temp_executable", tempFile.Name())
-    err = cmd.Run()
-    if err != nil {
-        return fmt.Errorf("error compiling code: %w", err)
-    }
-
-    // Execute the compiled code
-    cmd = exec.Command("./temp_executable")
-    err = cmd.Run()
-    if err != nil {
-        return fmt.Errorf("error executing code: %w", err)
-    }
-
-    return nil
-}
-
 func Update(code_to_run string) {
     backUpdate(code_to_run)
     clearScreen()
