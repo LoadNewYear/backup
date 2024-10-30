@@ -1,7 +1,7 @@
 # Things I'm good at: 
 1.  Linux
 2.  Typing
-3.  Productivity
+3.  Developer Productivity
 4.  Exploiting the Indian school system
 5.  Teaching
 6.  Hindi
@@ -19,7 +19,7 @@
 6.  Harry Potter
 7.  Lord Of The Rings
 8.  The Hitchhiker's guide to the galaxy
-9.  FOSS
+9.  [[Script|FOSS]]
 10. Developer productivity
 
 # Things I would like to learn about:
@@ -33,3 +33,4 @@
 8.  Exercise
 9.  Manim
 10. Ruby on rails
+

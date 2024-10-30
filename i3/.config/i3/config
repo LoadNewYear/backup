@@ -1,4 +1,4 @@
-set $mod Mod4
+set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -7,7 +7,7 @@ font pango:"FiraCode Nerd Font" 16px
 # GET DEM BORDERS OUT OF HERE
 #
 # Thanks Childz
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 2
 
 # class                 border  backgr. text    indicator child_border
 
@@ -27,15 +27,15 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
-#bindsym $mod+Return exec xterm -ls -xrm 'XTerm*selectToClipboard: true'& -ti 340
+bindsym $mod+Return exec xterm -ls -xrm 'XTerm*selectToClipboard: true'& -ti 340
 #bindsym $mod+Return exec footclient
-bindsym $mod+Return exec alacritty
+#bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+o exec --no-startup-id dmenu_run
 bindsym $mod+p exec --no-startup-id rofi -show calc
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
@@ -44,10 +44,10 @@ bindsym $mod+p exec --no-startup-id rofi -show calc
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+h focus left
-bindsym $mod+j focus down
-bindsym $mod+k focus up
-bindsym $mod+l focus right
+bindsym $mod+a focus left
+bindsym $mod+s focus down
+bindsym $mod+w focus up
+bindsym $mod+d focus right
 
 # alternatively, you can use the cursor keys:
 # bindsym $mod+Left focus left
@@ -56,10 +56,10 @@ bindsym $mod+l focus right
 # bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+h move left
-bindsym $mod+Shift+j move down
-bindsym $mod+Shift+k move up
-bindsym $mod+Shift+l move right
+bindsym $mod+Shift+a move left
+bindsym $mod+Shift+s move down
+bindsym $mod+Shift+w move up
+bindsym $mod+Shift+d move right
 
 # alternatively, you can use the cursor keys:
 # bindsym $mod+Shift+Left move left
@@ -76,28 +76,28 @@ bindsym $mod+z split h
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+w layout tabbed
+bindsym $mod+t layout tabbed
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+bindsym $mod+y focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
 
 # workspace names / font-awesome
-set $ws1 "01"
-set $ws2 "02"
-set $ws3 "03" 
-set $ws4 "04"
-set $ws5 "05"
-set $ws6 "06"
-set $ws7 "07"
-set $ws8 "08"
-set $ws9 "09"
-set $wsX "10"
+set $ws1 "10"
+set $ws2 "20"
+set $ws3 "30" 
+set $ws4 "40"
+set $ws5 "50"
+set $ws6 "60"
+set $ws7 "70"
+set $ws8 "80"
+set $ws9 "90"
+set $wsX "100"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -186,7 +186,6 @@ bindsym $mod+v resize grow width 10 px or 10 ppt
 # ------------------------------------------
 exec --no-startup-id nm-applet
 
-bindsym $mod+shift+semicolon exec /bin/Obsidian-1.6.7.AppImage
 bindsym $mod+semicolon exec firefox
 
 # FKeys
@@ -256,21 +255,21 @@ set $default-text-color #d0d0d0
 # client.background        $black
 # 
 # bar
-#bar {
-##padding 8px 8px 2px 0px
+bar {
         #colors {
             #background         $black
                 #statusline         $yellow
                 #focused_statusline $amber
                 #focused_separator  $orange
 #
-### target           border  bg        text
+## target           border  bg        text
                 #focused_workspace  $cyan   $black    $cyan
                 #active_workspace   $cyan   $black     $cyan
                 #inactive_workspace $magenta $black  $magenta
                 #urgent_workspace   $red  $red   $black
         #}
-#}
+        status_command i3status
+}
 
 # Scratchpad
 
@@ -280,6 +279,7 @@ set $default-text-color #d0d0d0
 #exec xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 #exec foot --server
 exec_always --no-startup-id xfce4-panel --disable-wm-check
+exec_always for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
 
 #input "SynPS/2 Synaptics TouchPad" {
     #tap enabled

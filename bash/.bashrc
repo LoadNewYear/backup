@@ -4,7 +4,7 @@
 
 # aliases
 alias ls="exa --icons"
-alias cd='z'
+#alias cd='z'
 alias vim='nvim'
 alias cat="bat --color always"
 alias tmux="tmux -u"
@@ -12,7 +12,7 @@ alias tmux="tmux -u"
 # autostart
 
 # evals
-eval "$(zoxide init bash)"
+#eval "$(zoxide init bash)"
 eval "$(starship init bash)"
 
 # Exports
@@ -25,3 +25,5 @@ export LD_LIBRARY_PATH=/usr/local/lib
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export PATH=$PATH:/usr/local/go/bin
+. "$HOME/.cargo/env"
+source $HOME/.cargo/env

@@ -1,0 +1,8 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/loadnewyear/backup/personal/code/python/manim/FOSS/media/videos/scene2/480p15/partial_movie_files/explore/1244381723_3058824611_1345451313.mp4'
+file 'file:/home/loadnewyear/backup/personal/code/python/manim/FOSS/media/videos/scene2/480p15/partial_movie_files/explore/718067285_1753647334_1665920548.mp4'
+file 'file:/home/loadnewyear/backup/personal/code/python/manim/FOSS/media/videos/scene2/480p15/partial_movie_files/explore/1133618096_561418586_1113975917.mp4'
+file 'file:/home/loadnewyear/backup/personal/code/python/manim/FOSS/media/videos/scene2/480p15/partial_movie_files/explore/488133886_3661338563_3603115887.mp4'
+file 'file:/home/loadnewyear/backup/personal/code/python/manim/FOSS/media/videos/scene2/480p15/partial_movie_files/explore/3644905826_561418586_2236349782.mp4'
+file 'file:/home/loadnewyear/backup/personal/code/python/manim/FOSS/media/videos/scene2/480p15/partial_movie_files/explore/3572555296_521307576_200147247.mp4'
+file 'file:/home/loadnewyear/backup/personal/code/python/manim/FOSS/media/videos/scene2/480p15/partial_movie_files/explore/3620250942_4167866877_3608584490.mp4'
