@@ -1,0 +1,1 @@
+LIBVA_DRIVER_NAME=1915 discord --ignore-gpu-blocklist --disable-features=UseOzonePlatform --enable-features=VaapiVideoDecoder --user-gl=desktop --enable-gpu-rasterization --enable-zero-copy

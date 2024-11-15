@@ -26,7 +26,13 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     { import = "plugins" },
-    -- { import = "plugins.lsp" },
+    {
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    ft = { "markdown" },
+    build = function() vim.fn["mkdp#util#install"]() end,
+    }
+   -- { import = "plugins.lsp" },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.

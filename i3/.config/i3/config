@@ -1,4 +1,4 @@
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -32,7 +32,7 @@ bindsym $mod+Return exec xterm -ls -xrm 'XTerm*selectToClipboard: true'& -ti 340
 #bindsym $mod+Return exec alacritty
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+o exec --no-startup-id dmenu_run
@@ -44,10 +44,10 @@ bindsym $mod+p exec --no-startup-id rofi -show calc
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+a focus left
-bindsym $mod+s focus down
-bindsym $mod+w focus up
-bindsym $mod+d focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 # bindsym $mod+Left focus left
@@ -56,10 +56,10 @@ bindsym $mod+d focus right
 # bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+a move left
-bindsym $mod+Shift+s move down
-bindsym $mod+Shift+w move up
-bindsym $mod+Shift+d move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 # bindsym $mod+Shift+Left move left
@@ -122,48 +122,6 @@ bindsym $mod+Shift+7 move container to workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $wsX
-# NOTE: This is some real tom fooliery with my keyboard layout
-#  ZMK will send a shift mod with the items that require a shift key on a
-#  regular keyboard.  so though it defines a keycode as "LEFT_BRACE" it really
-#  is shift_L + LEFT_BRACE.  So you will notice the odd peppering of shifts and
-#  non shifts
-# switch to workspace
-# bindsym $mod+Shift+plus workspace 1
-# bindsym $mod+bracketleft workspace 2
-# bindsym $mod+Shift+braceleft workspace 3
-# bindsym $mod+Shift+parenleft workspace 4
-# bindsym $mod+Shift+ampersand workspace 5
-# bindsym $mod+equal workspace 6
-# bindsym $mod+Shift+parenright workspace 7
-# bindsym $mod+Shift+braceright workspace 8
-# bindsym $mod+bracketright workspace 9
-# bindsym $mod+Shift+asterisk workspace 10
-#
-# # NOTE: since i have to press shift to get these symbols
-# # move focused container to workspace.
-# #  I wanted to use this as my method of moving spaces around, but it doesn't
-# #  seem to work, but when i provide the keycode + shift it seems to work well.
-# # bindsym $mod+Shift+kp_1 move container to workspace 1
-# # bindsym $mod+Shift+kp_2 move container to workspace 2
-# # bindsym $mod+Shift+kp_3 move container to workspace 3
-# # bindsym $mod+Shift+kp_4 move container to workspace 4
-# # bindsym $mod+Shift+kp_5 move container to workspace 5
-# # bindsym $mod+Shift+kp_6 move container to workspace 6
-# # bindsym $mod+Shift+kp_7 move container to workspace 7
-# # bindsym $mod+Shift+kp_8 move container to workspace 8
-# # bindsym $mod+Shift+kp_9 move container to workspace 9
-# # bindsym $mod+Shift+kp_0 move container to workspace 10
-#
-# bindcode $mod+Shift+87 move container to workspace 1
-# bindcode $mod+Shift+88 move container to workspace 2
-# bindcode $mod+Shift+89 move container to workspace 3
-# bindcode $mod+Shift+83 move container to workspace 4
-# bindcode $mod+Shift+84 move container to workspace 5
-# bindcode $mod+Shift+85 move container to workspace 6
-# bindcode $mod+Shift+79 move container to workspace 7
-# bindcode $mod+Shift+80 move container to workspace 8
-# bindcode $mod+Shift+81 move container to workspace 9
-# bindcode $mod+Shift+90 move container to workspace 10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -178,17 +136,10 @@ bindsym $mod+r resize grow height 10 px or 10 ppt
 bindsym $mod+e resize shrink height 10 px or 10 ppt
 bindsym $mod+v resize grow width 10 px or 10 ppt
 
-# same bindings, but for the arrow keys
-
-
-# ------------------------------------------
-# CUSTOM KEYS START
-# ------------------------------------------
 exec --no-startup-id nm-applet
 
 bindsym $mod+semicolon exec firefox
 
-# FKeys
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
@@ -199,35 +150,6 @@ bindsym $mod+i exec brightnessctl set +1 # increase screen brightness
 bindsym $mod+n exec brightnessctl set 1- # decrease screen brightness
 #bindsym XF86MonBrightnessDown exec brightnessctl set -1 # decrease screen brightness
 
-#######
-#THEME#
-#######
-# set $rosewater #f5e0dc
-# set $flamingo #f2cdcd
-# set $pink #f5c2e7
-# set $mauve #cba6f7
-# set $red #f38ba8
-# set $maroon #eba0ac
-# set $peach #fab387
-# set $yellow #f9e2af
-# set $green #a6e3a1
-# set $teal #94e2d5
-# set $sky #89dceb
-# set $sapphire #74c7ec
-# set $blue #89b4fa
-# set $lavender #b4befe
-# set $text #cdd6f4
-# set $subtext1 #bac2de
-# set $subtext0 #a6adc8
-# set $overlay2 #9399b2
-# set $overlay1 #7f849c
-# set $overlay0 #6c7086
-# set $surface2 #585b70
-# set $surface1 #45475a
-# set $surface0 #313244
-# set $base #1e1e2e
-# set $mantle #181825
-# set $crust #11111b
 set $black #000000
 set $red #e22c3c
 set $red-Orange #e9404b
@@ -247,12 +169,6 @@ set $magenta #e54f9b
 set $hot-red #e3365e
 set $cool-gray #515768
 set $default-text-color #d0d0d0
-# client.focused           $white $base $black  $rosewater $lavender
-# client.focused_inactive  $black $base $white  $rosewater $overlay0
-# client.unfocused         $black $base $white $rosewater $overlay0
-# client.urgent            $white $base $black $overlay0  $peach
-# client.placeholder       $black $base $white  $overlay0  $overlay0
-# client.background        $black
 # 
 # bar
 bar {
@@ -275,10 +191,10 @@ bar {
 
 # autostart
 #exec_always --no-startup-id autotiling
-#exec xrdb ~/.Xresources
+exec xrdb ~/.Xresources
 #exec xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 #exec foot --server
-exec_always --no-startup-id xfce4-panel --disable-wm-check
+#exec_always --no-startup-id xfce4-panel --disable-wm-check
 exec_always for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
 
 #input "SynPS/2 Synaptics TouchPad" {

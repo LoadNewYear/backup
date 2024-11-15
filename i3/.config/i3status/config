@@ -25,6 +25,7 @@ order += "disk /"
 order += "wireless wlp4s0"
 order += "ethernet enp0s25"
 order += "cpu_temperature 0"
+order += "tztime local"
 
 wireless wlp4s0 {
     format_up = "%quality  %essid %ip"
